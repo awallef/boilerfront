@@ -1,0 +1,46 @@
+/**
+ *	for the syntax look at:
+ *	http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/
+ *	
+ *	BEM syntax:
+ *	
+ *	.block{}
+ *	.block__element{}
+ * 	.block--modifier{}
+ *
+ *	.person{}
+ *	.person__hand{}
+ *	.person--female{}
+ *	.person--female__hand{}
+ *	.person__hand--left{}
+ *
+ *	to see what is BEM ( Blocks, Elements, Modifiers ) check:
+ *	http://bem.info/method/definitions/
+ */
+ 
+/* BASIC HELPERS
+*************************************/
+.display--none { display: none; }
+.display--block { display: block; }
+.display--inline { display: inline; }
+.position--relative{ position: relative; }
+.position--absolute{ position: absolute; }
+
+.clear--both{ clear: both; }
+.float--left{ float:left; }
+.float--right{ float:right; }
+
+/* SPACERS
+*************************************/
+.margin-top--alpha{ margin-top: 40px; }
+.margin-top--beta{ margin-top: 30px; }
+.margin-top--gamma{ margin-top: 20px; }
+
+.spacer--alpha { height: 40px; }
+.spacer--beta { height: 30px; }
+.spacer--gamma { height: 20px; }
+
+/* TEXT
+*************************************/
+.text-align--center { text-align: center; }
+.text-align--right { text-align: right; }

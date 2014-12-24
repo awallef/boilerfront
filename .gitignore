@@ -1,0 +1,36 @@
+# User specific & automatically generated files #
+#################################################
+/app/Config/core.php
+/app/Config/database.php
+/app/tmp
+/lib
+/plugins
+/vendors
+/build
+/dist
+/tags
+/.travis.yml
+/build.properties
+/build.xml
+/composer.json
+/index.php
+/app/webroot/imagecache/
+/app/webroot/files/
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+### NetBeans
+nbproject/private/*
+
+# grunt #
+#########
+node_modules
+.sass-cache
